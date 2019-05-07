@@ -67,7 +67,7 @@ for (i in 1:11) {
   uk <- rbind(uk, df)
 }
 
-#then, get restaurants with bar or pub in the name. Some pubs are coded as restaurants, unfortuntely.
+#then, get restaurants with bar or pub in the name. Some pubs are coded as restaurants, unfortunately.
 df_pub <- get_health(1, "pub", 1)
 df_bar <- get_health(1, "bar", 1)
 
